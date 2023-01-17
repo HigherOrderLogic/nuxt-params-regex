@@ -1,0 +1,20 @@
+{
+  "extends": ["@nuxtjs/eslint-config-typescript"],
+  "plugins": ["import"],
+  "rules": {
+    "@typescript-eslint/no-unused-vars": [
+      "error",
+      { "args": "all", "argsIgnorePattern": "^_" }
+    ],
+    "no-unused-vars": "off",
+
+    "import/order": [
+      "error",
+      {
+        "groups": ["builtin", "external", "internal", "parent", "sibling", "index", "object", "type"],
+        "newlines-between": "always",
+        "alphabetize": { "order": "asc", "caseInsensitive": true }
+      }
+    ]
+  }
+}
