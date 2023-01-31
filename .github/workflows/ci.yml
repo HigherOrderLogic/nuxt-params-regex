@@ -38,5 +38,7 @@ jobs:
           registry-url: https://registry.npmjs.org/
       - name: Install dependencies
         run: yarn --immutable
+      - name: Generate tsconfig.json base
+        run: yarn dev:prepare
       - name: Build module
         run: yarn run build
