@@ -748,7 +748,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@nuxt/kit@npm:3.3.3, @nuxt/kit@npm:^3.1.1, @nuxt/kit@npm:^3.2.0":
+"@nuxt/kit@npm:3.3.3, @nuxt/kit@npm:^3.2.0, @nuxt/kit@npm:^3.3.3":
   version: 3.3.3
   resolution: "@nuxt/kit@npm:3.3.3"
   dependencies:
@@ -790,7 +790,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@nuxt/schema@npm:3.3.3, @nuxt/schema@npm:^3.1.1":
+"@nuxt/schema@npm:3.3.3, @nuxt/schema@npm:^3.3.3":
   version: 3.3.3
   resolution: "@nuxt/schema@npm:3.3.3"
   dependencies:
@@ -1127,7 +1127,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/node@npm:^18.11.18":
+"@types/node@npm:^18.15.11":
   version: 18.15.11
   resolution: "@types/node@npm:18.15.11"
   checksum: 977b4ad04708897ff0eb049ecf82246d210939c82461922d20f7d2dcfd81bbc661582ba3af28869210f7e8b1934529dcd46bff7d448551400f9d48b9d3bddec3
@@ -3149,7 +3149,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"eslint-plugin-import@npm:eslint-plugin-i@^2.26.0":
+"eslint-plugin-import@npm:eslint-plugin-i@^2.27.5":
   version: 2.27.5
   resolution: "eslint-plugin-i@npm:2.27.5"
   dependencies:
@@ -3319,7 +3319,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"eslint@npm:^8.33.0":
+"eslint@npm:^8.37.0":
   version: 8.37.0
   resolution: "eslint@npm:8.37.0"
   dependencies:
@@ -5655,18 +5655,18 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "nuxt-params-regex@workspace:."
   dependencies:
-    "@nuxt/kit": ^3.1.1
+    "@nuxt/kit": ^3.3.3
     "@nuxt/module-builder": ^0.2.1
-    "@nuxt/schema": ^3.1.1
+    "@nuxt/schema": ^3.3.3
     "@nuxtjs/eslint-config-typescript": ^12.0.0
-    "@types/node": ^18.11.18
-    eslint: ^8.33.0
-    eslint-plugin-import: "npm:eslint-plugin-i@^2.26.0"
-    nuxt: ^3.1.1
+    "@types/node": ^18.15.11
+    eslint: ^8.37.0
+    eslint-plugin-import: "npm:eslint-plugin-i@^2.27.5"
+    nuxt: ^3.3.3
   languageName: unknown
   linkType: soft
 
-"nuxt@npm:^3.1.1":
+"nuxt@npm:^3.3.3":
   version: 3.3.3
   resolution: "nuxt@npm:3.3.3"
   dependencies:
