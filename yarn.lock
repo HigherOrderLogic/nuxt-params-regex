@@ -771,19 +771,19 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@nuxt/module-builder@npm:^0.2.1":
-  version: 0.2.1
-  resolution: "@nuxt/module-builder@npm:0.2.1"
+"@nuxt/module-builder@npm:^0.3.0":
+  version: 0.3.0
+  resolution: "@nuxt/module-builder@npm:0.3.0"
   dependencies:
-    consola: ^2.15.3
-    mlly: ^1.0.0
+    consola: ^3.0.1
+    mlly: ^1.2.0
     mri: ^1.2.0
-    pathe: ^1.0.0
-    unbuild: ^1.0.1
+    pathe: ^1.1.0
+    unbuild: ^1.2.0
   bin:
     nuxt-build-module: dist/cli.mjs
     nuxt-module-build: dist/cli.mjs
-  checksum: 47b800768026d0bc1ab30231d71c9519eb225d69c608da3a96bbd96c886577288cba113ea122d57d3fa61d2070d205cfc8cdb7be153f88350927d3f3d4833b47
+  checksum: 1ed0ac70c6e6f4ea03fea62a657edea1f96444929f55b23a8ca98b5a7243c6a7080617b0ca9b2d29232dfde6381b8f257b243954e1217ac9d6a2a6bd3e81a2d6
   languageName: node
   linkType: hard
 
@@ -2305,13 +2305,6 @@ __metadata:
   version: 0.0.1
   resolution: "concat-map@npm:0.0.1"
   checksum: 902a9f5d8967a3e2faf138d5cb784b9979bad2e6db5357c5b21c568df4ebe62bcb15108af1b2253744844eb964fc023fbd9afbbbb6ddd0bcc204c6fb5b7bf3af
-  languageName: node
-  linkType: hard
-
-"consola@npm:^2.15.3":
-  version: 2.15.3
-  resolution: "consola@npm:2.15.3"
-  checksum: 8ef7a09b703ec67ac5c389a372a33b6dc97eda6c9876443a60d76a3076eea0259e7f67a4e54fd5a52f97df73690822d090cf8b7e102b5761348afef7c6d03e28
   languageName: node
   linkType: hard
 
@@ -5727,7 +5720,7 @@ __metadata:
   resolution: "nuxt-params-regex@workspace:."
   dependencies:
     "@nuxt/kit": ^3.3.3
-    "@nuxt/module-builder": ^0.2.1
+    "@nuxt/module-builder": ^0.3.0
     "@nuxt/schema": ^3.3.3
     "@nuxtjs/eslint-config-typescript": ^12.0.0
     "@types/node": ^18.15.11
@@ -7732,7 +7725,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"unbuild@npm:^1.0.1":
+"unbuild@npm:^1.2.0":
   version: 1.2.1
   resolution: "unbuild@npm:1.2.1"
   dependencies:
