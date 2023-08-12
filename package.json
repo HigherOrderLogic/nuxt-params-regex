@@ -26,7 +26,7 @@
     "@nuxt/kit": "^3.3.3"
   },
   "devDependencies": {
-    "@nuxt/module-builder": "^0.3.0",
+    "@nuxt/module-builder": "^0.4.0",
     "@nuxt/schema": "^3.3.3",
     "@nuxtjs/eslint-config-typescript": "^12.0.0",
     "@types/node": "^18.15.11",
@@ -34,5 +34,5 @@
     "eslint-plugin-import": "npm:eslint-plugin-i@^2.27.5",
     "nuxt": "^3.3.3"
   },
-  "packageManager": "yarn@3.5.0"
+  "packageManager": "yarn@3.6.1"
 }
