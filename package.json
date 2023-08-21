@@ -34,5 +34,5 @@
     "eslint-plugin-import": "npm:eslint-plugin-i@^2.27.5",
     "nuxt": "^3.3.3"
   },
-  "packageManager": "yarn@3.6.1"
+  "packageManager": "yarn@3.6.2"
 }
