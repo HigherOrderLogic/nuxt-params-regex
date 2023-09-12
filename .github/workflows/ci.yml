@@ -19,6 +19,8 @@ jobs:
           node-version: 18
           cache: yarn
           registry-url: https://registry.npmjs.org/
+      - name: Setup Typescript
+        run: yarn global add typescript
       - name: Install dependencies
         run: yarn --immutable
       - name: Lint
@@ -36,6 +38,8 @@ jobs:
           node-version: 18
           cache: yarn
           registry-url: https://registry.npmjs.org/
+      - name: Setup Typescript
+        run: yarn global add typescript
       - name: Install dependencies
         run: yarn --immutable
       - name: Generate tsconfig.json base

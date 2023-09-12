@@ -937,7 +937,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@nuxt/module-builder@npm:^0.5.0":
+"@nuxt/module-builder@npm:^0.5.1":
   version: 0.5.1
   resolution: "@nuxt/module-builder@npm:0.5.1"
   dependencies:
@@ -6066,7 +6066,7 @@ __metadata:
   resolution: "nuxt-params-regex@workspace:."
   dependencies:
     "@nuxt/kit": ^3.7.1
-    "@nuxt/module-builder": ^0.5.0
+    "@nuxt/module-builder": ^0.5.1
     "@nuxt/schema": ^3.7.1
     "@nuxtjs/eslint-config-typescript": ^12.1.0
     "@types/node": ^18.17.15
