@@ -32,7 +32,8 @@
     "@types/node": "^18.17.15",
     "eslint": "^8.49.0",
     "eslint-plugin-import": "npm:eslint-plugin-i@^2.28.1",
-    "nuxt": "^3.7.1"
+    "nuxt": "^3.7.1",
+    "typescript": "^5.2.2"
   },
   "packageManager": "yarn@3.6.3"
 }
