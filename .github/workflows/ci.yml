@@ -12,15 +12,13 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout project
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4
       - name: Setup Node
         uses: actions/setup-node@v3
         with:
           node-version: 18
           cache: yarn
           registry-url: https://registry.npmjs.org/
-      - name: Setup Typescript
-        run: yarn add typescript -D
       - name: Install dependencies
         run: yarn --immutable
       - name: Lint
@@ -31,15 +29,13 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout project
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4
       - name: Setup Node
         uses: actions/setup-node@v3
         with:
           node-version: 18
           cache: yarn
           registry-url: https://registry.npmjs.org/
-      - name: Setup Typescript
-        run: yarn add typescript -D
       - name: Install dependencies
         run: yarn --immutable
       - name: Generate tsconfig.json base
