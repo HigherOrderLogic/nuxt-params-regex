@@ -947,21 +947,21 @@ __metadata:
   linkType: hard
 
 "@nuxt/module-builder@npm:^0.5.1":
-  version: 0.5.1
-  resolution: "@nuxt/module-builder@npm:0.5.1"
+  version: 0.5.2
+  resolution: "@nuxt/module-builder@npm:0.5.2"
   dependencies:
+    citty: ^0.1.4
     consola: ^3.2.3
-    mlly: ^1.4.1
-    mri: ^1.2.0
+    mlly: ^1.4.2
     pathe: ^1.1.1
     unbuild: ^2.0.0
   peerDependencies:
-    "@nuxt/kit": ^3.7.0
-    nuxi: ^3.7.3
+    "@nuxt/kit": ^3.7.4
+    nuxi: ^3.9.0
   bin:
     nuxt-build-module: dist/cli.mjs
     nuxt-module-build: dist/cli.mjs
-  checksum: 329e3e8d8bf3625028599ad06ed0160dd1df6b037f162b8774c053efa1b0a69cb31cd1a0bfb0aadf8b513a9a1a412f93a0d12fe56f9f1ac8b2800c644f241534
+  checksum: db357a26ff7f3d02ed00f41effd64a88a4918327dab126d6aa0529d80648c12646b813b7224705163bce25abc060533248efa8e87f6ff5cb74b45e0a33b305ef
   languageName: node
   linkType: hard
 
@@ -1448,16 +1448,16 @@ __metadata:
   linkType: hard
 
 "@types/node@npm:*":
-  version: 20.7.0
-  resolution: "@types/node@npm:20.7.0"
-  checksum: 1b2919925c213f4d2039ada7a8354c998e144f7291db8d719ef58ea9924ab636c113690073b0ec3b82ba62907385f7e0f51e9d1583c1a818776daa5156d3a590
+  version: 20.8.0
+  resolution: "@types/node@npm:20.8.0"
+  checksum: ebad6342d54238a24bf980d7750117a5d67749c9b72cbb7a974a1e932c39034aa3a810d669e007e8a5071782a253aa069a187b614407a382403c9826e837c849
   languageName: node
   linkType: hard
 
 "@types/node@npm:^18.17.15":
-  version: 18.18.0
-  resolution: "@types/node@npm:18.18.0"
-  checksum: 61bcffa28eb713e7a4c66fd369df603369c3f834a783faeced95fe3e78903faa25f1a704d49e054f41d71b7915eeb066d10a37cc699421fcf5dd267f96ad5808
+  version: 18.18.1
+  resolution: "@types/node@npm:18.18.1"
+  checksum: 079085afc8615b91727900628410a2077f7fff51c5c3e20c4ab2d9caae4010b035aac13dae1221155e9d6ca46084aebf68121642140527b4009eee17b716d339
   languageName: node
   linkType: hard
 
