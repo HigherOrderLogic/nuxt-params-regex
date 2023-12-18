@@ -29,7 +29,7 @@
     "@nuxt/module-builder": "^0.5.4",
     "@nuxt/schema": "^3.8.1",
     "@nuxtjs/eslint-config-typescript": "^12.1.0",
-    "@types/node": "^18.18.9",
+    "@types/node": "^20.0.0",
     "eslint": "^8.53.0",
     "eslint-plugin-import": "npm:eslint-plugin-i@^2.29.0",
     "nuxt": "^3.8.1",
